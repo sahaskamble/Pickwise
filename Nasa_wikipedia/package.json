@@ -1,0 +1,25 @@
+{
+  "name": "nasa-wikipedia",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/language-server": "^2.8.3",
+    "@astrojs/node": "^8.2.3",
+    "@astrojs/react": "^3.1.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "astro": "^4.5.5",
+    "axios": "^1.6.8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

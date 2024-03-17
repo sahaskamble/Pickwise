@@ -1,0 +1,34 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import SectionOne from "../components/APOD";
+---
+
+<Layout>
+	<Navbar />
+	<main>
+		<div style="text-align: center;">
+			<h1><i><q>Explore the ever expanding Space!!!</q></i></h1>
+		</div>
+		<section class="One">
+			<h2>Astronomy Picture of the Day (APOD)</h2>
+			<SectionOne client:load />
+		</section>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin-left: 15dvw;
+		padding: 0px 2rem;
+	}
+	.One {
+		margin: 0px auto;
+		text-align: center;
+	}
+	h1 {
+		border-bottom: 2px solid black;
+		padding: 10px 1rem;
+		margin: 0px;
+	}
+</style>
